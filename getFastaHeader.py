@@ -15,7 +15,6 @@ Requirement : biopython
 
 '''
 
-
 import argparse
 import os
 import sys
@@ -30,8 +29,8 @@ def main():
     It search NCBI for the gi ids and get the header and taxonomic id
 
     Creates two csv files
-      - _hypothetical.csv contains gene description containing hypothetical genes/ proteins
-      - _other.csv contains rest of the results  
+      -> _hypothetical.csv contains gene description containing hypothetical genes/ proteins
+      -> _other.csv contains rest of the results  
     """
     parser = argparse.ArgumentParser(description=des,formatter_class=argparse.RawTextHelpFormatter )
     parser.add_argument('-i', help='blastoutput file', action='store',dest='blast_out',required=True)
