@@ -3,7 +3,7 @@ __author__ = 'Roshan'
 __version__ = 0.1
 __lisense__ = 'BSD'
 
-# python 2.7
+# python 2.7 or 3.4
 
 '''
 
@@ -86,7 +86,7 @@ def main():
                     text_file.write(tofile)
             handle.close()
         except :
-            print '\nERROR: BAD request, check gi id : ' + i 
+            print ('\nERROR: BAD request, check gi id : ' + i )
             pass
 
     print('\ncheck the files {} and {} '.format(o_hypo, o_other))
