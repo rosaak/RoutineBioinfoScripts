@@ -28,7 +28,9 @@ RoutineBioinfoScripts
 
     usage: py_seqret.py [-h] -f INFASTA -p PAT_FILE
 
-	give two file , fasta file to search and pattern file
+	this script is a python implementation of sequence fetch
+	more like emboss seqret
+	inputs are : fasta file to search and pattern file
 	
     optional arguments:
     -h, --help   show this help message and exit
