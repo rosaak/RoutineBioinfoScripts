@@ -130,8 +130,9 @@ if __name__ == '__main__':
 	in_fasta = args.infasta
 	pat_file = args.pat_file
 
-	# datafilename = './data/lite3seq.db'
-	# fasta_infile = "./data/seq.fasta"
+	# datafilename = './test/lite3seq.db'
+	# in_fasta = "./test/seq.fasta"
+	# pat_file = "./test/pat.txt"
 
 	# get the fasta sequences into a list - data
 	data = read_fasta(in_fasta)
