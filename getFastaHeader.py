@@ -20,7 +20,7 @@ import os
 import sys
 from Bio import Entrez
 # EDIT here
-Entrez.email = 'rosaak@gmail.com'
+Entrez.email = '' #pls add
 
 
 def main():
