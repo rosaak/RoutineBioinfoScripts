@@ -20,3 +20,17 @@ RoutineBioinfoScripts
      -d {nuc,pro}         database to search
      -o OUTFILE_BASENAME  outfile base name
   
+
+##py_seqret.py
+####usage
+
+
+
+    usage: py_seqret.py [-h] -f INFASTA -p PAT_FILE
+
+	give two file , fasta file to search and pattern file
+	
+    optional arguments:
+    -h, --help   show this help message and exit
+    -f INFASTA   fasta sequence file
+    -p PAT_FILE  pattern file
