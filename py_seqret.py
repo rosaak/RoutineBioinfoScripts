@@ -121,7 +121,9 @@ def query_db(pat):
 if __name__ == '__main__':
 
 	des="""
-	give two file , fasta file to search and pattern file
+	this script is a python implementation of sequence fetch
+	more like emboss seqret
+	inputs are : fasta file to search and pattern file
 	"""
 	parser = argparse.ArgumentParser(description=des,formatter_class=argparse.RawTextHelpFormatter )
 	parser.add_argument('-f', help='fasta sequence file', action='store',dest='infasta',required=True)
