@@ -26,7 +26,7 @@ Need to cross verify with the gg13.5  file
 
 from Bio import SeqIO
 
-def rdp_to_ggline(l):
+def rdp_to_ggline(l,record_dict):
     return_line = []
     c =  record_dict[l].description.split('\t')[::-1][0].split(';')[::-1]
     ID = l.strip() + "\t"
@@ -71,7 +71,7 @@ if __name__=='__main__':
         with open(offasta , 'w+a') as ofhf:
             for l in record_dict:
                 # print l
-                ofh.writelines( rdp_to_ggline(l))
+                ofh.writelines( rdp_to_ggline(l, record_dict))
                 seq =  ">"+record_dict[l].id + "\n" + record_dict[l].seq + "\n"
                 ofhf.writelines(seq)
 
