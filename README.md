@@ -36,3 +36,7 @@ RoutineBioinfoScripts
     -h, --help   show this help message and exit
     -f INFASTA   fasta sequence file
     -p PAT_FILE  pattern file
+
+
+##rdp2_gg.py
+    This script converts rdp aligned fasta file to taxonomy as fasta file which mimics green genes files
