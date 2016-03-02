@@ -22,7 +22,7 @@ biom.df =  as.data.frame(merge( mat.d, mat.md , by = 0 ) )
 # dim( mat.d)
 # dim( mat.md)
 
-# Remove NAs and write the tsv file
+# Remove rows only zeros and write the tsv file
 
 if ( any(rowSums( mat.d ) == 0 ) ){
 # Remove the rows with only zeros
