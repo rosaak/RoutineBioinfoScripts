@@ -39,4 +39,21 @@ RoutineBioinfoScripts
 
 
 ##rdp2_gg.py
-    This script converts rdp aligned fasta file to taxonomy as fasta file which mimics green genes files
+
+## micca_modify_tsv_fasta_v01.py 
+####usage
+
+	usage: micca_modify_tsv_fasta_v01.py [-h] -i OTU_ID -t OTU_TABLE -f OTU_FASTA
+					     -x NEW_OTUID -y NEW_TABLE -z NEW_FASTA
+
+		This script modifies otus.fasta , otutable.txt made from the output of micca otu command
+
+	optional arguments:
+	  -h, --help    show this help message and exit
+	  -i OTU_ID     micca_otu_id_file
+	  -t OTU_TABLE  micca_otu_table
+	  -f OTU_FASTA  micca_otu_fasta
+	  -x NEW_OTUID  micca_otu_ids_out_fp
+	  -y NEW_TABLE  micca_otu_table_out_fp
+	  -z NEW_FASTA  micca_otu_fasta_out_fp
+
