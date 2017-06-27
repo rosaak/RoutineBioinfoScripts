@@ -33,7 +33,7 @@ RoutineBioinfoScripts
     -p PAT_FILE  pattern file
 
 ## micca_modify_tsv_fasta_v01.py 
-####usage
+#### usage
 
 	usage: micca_modify_tsv_fasta_v01.py [-h] -i OTU_ID -t OTU_TABLE -f OTU_FASTA
 					     -x NEW_OTUID -y NEW_TABLE -z NEW_FASTA
