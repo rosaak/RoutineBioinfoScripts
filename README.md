@@ -1,9 +1,8 @@
 RoutineBioinfoScripts
 ====================
 
-##getFastaHeader.py 
-
-####usgae
+## getFastaHeader.py
+#### usgae
 
     usage: getFastaHeader.py [-h] -i BLAST_OUT -d {nuc,pro} -o OUTFILE_BASENAME
     Given the blastoutput file in tab format and the database name ( protein [pro] or nucelotide [nuc] )
@@ -19,13 +18,10 @@ RoutineBioinfoScripts
      -d {nuc,pro}         database to search
      -o OUTFILE_BASENAME  outfile base name
   
-##py_seqret.py
+## py_seqret.py
+#### usage
 
-####usage
-
-
-
-    usage: py_seqret.py [-h] -f INFASTA -p PAT_FILE
+	usage: py_seqret.py [-h] -f INFASTA -p PAT_FILE
 
 	this script is a python implementation of sequence fetch
 	more like emboss seqret
@@ -37,7 +33,6 @@ RoutineBioinfoScripts
     -p PAT_FILE  pattern file
 
 ## micca_modify_tsv_fasta_v01.py 
-
 ####usage
 
 	usage: micca_modify_tsv_fasta_v01.py [-h] -i OTU_ID -t OTU_TABLE -f OTU_FASTA
